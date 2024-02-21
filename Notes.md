@@ -1,2 +1,0 @@
-# Para que puede estar bueno esto ?
-1. Para aplicarlo a el RPG que hicimos hace unos dias, donde este tipo de metricas permiten cambiar los SOL que se vayan usando por `USDC` u otro a medida que maya pasando el tiempo ?
