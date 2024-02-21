@@ -1,0 +1,4 @@
+- [ ] 1. Mezclar las instrucciones, para que `withdraw` sea una sola y se fije de forma automatica si esta roto el feed o no
+- [ ] 2. Test para verificar que esa vaina se rompe 
+- [ ] 3. Ver como pingo se integra `PYTH`
+- [ ] 4. Integrar `PYTH` como segunda opcion? 
