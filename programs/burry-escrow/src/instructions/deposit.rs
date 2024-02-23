@@ -37,6 +37,10 @@ pub fn deposit_handler(ctx:Context<Deposit>,escrow_amt:u64,unlock_price:f64)->Re
         ctx.accounts.escrow_account.to_account_info(),
         ctx.accounts.system_program.to_account_info()
     ])?;
+
+    /**
+     * Aca estaria bueno hacer un minteo de un token tipo wSol
+     */
     msg!("Transfer complete. Escrow will unlock SOL at {}", &ctx.accounts.escrow_account.unlock_price);
     Ok(())
 }

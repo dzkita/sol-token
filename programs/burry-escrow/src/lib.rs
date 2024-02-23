@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use instructions::deposit::*;
-use instructions::withdraw::*;
-// use instructions::withdraw_closed_feed::*;
+use instructions::{withdraw::*, withdraw_closed_feed::*};
+
 use state::*;
 
 pub mod errors;
@@ -20,7 +20,7 @@ pub mod burry_escrow {
     pub fn withdraw(ctx: Context<Withdraw>) -> Result<()> {
         withdraw_handler(ctx)
     }
-    // pub fn withdraw_closed_feed(ctx: Context<WithdrawClosedFeed>) -> Result<()> {
-    //     withdraw_closed_feed_handler(ctx)
-    // }
+    pub fn withdraw_closed_feed(ctx: Context<WithdrawClosedFeed>) -> Result<()> {
+        withdraw_closed_feed_handler(ctx)
+    }
 }
