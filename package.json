@@ -5,8 +5,8 @@
     },
     "dependencies": {
         "@coral-xyz/anchor": "^0.28.0",
-        "@switchboard-xyz/common": "^2.3.16",
-        "@switchboard-xyz/solana.js": "^3.2.3"
+        "@switchboard-xyz/common": "^2.3.17",
+        "@switchboard-xyz/solana.js": "^3.2.5"
     },
     "devDependencies": {
         "@types/bn.js": "^5.1.0",

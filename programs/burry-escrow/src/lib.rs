@@ -1,14 +1,14 @@
 use anchor_lang::prelude::*;
 use instructions::deposit::*;
-use instructions::withdraw::*;
-use instructions::withdraw_closed_feed::*;
+use instructions::{withdraw::*, withdraw_closed_feed::*};
+
 use state::*;
 
 pub mod errors;
 pub mod instructions;
 pub mod state;
 
-declare_id!("Cib1qo5fLDNtpSHMv3usbqN2o8SPJ2DQhHhiaDEunX2J");
+declare_id!("9yoRAZ3PxSCRxK5bra2kVptmq88o5tVTqaxSwXQTSAVy");
 
 #[program]
 pub mod burry_escrow {
