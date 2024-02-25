@@ -1,12 +1,12 @@
 [package]
-name = "hyper_token"
+name = "payment-config"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "hyper_token"
+name = "payment_config"
 
 [features]
 no-entrypoint = []
@@ -17,4 +17,8 @@ default = []
 local-testing=[]
 
 [dependencies]
-anchor-lang = "0.28.0"
+anchor-lang ={version ="0.28.0", features = ["init-if-needed"] }
+anchor-spl="0.28.0"
+solana-program="*"
+
+
